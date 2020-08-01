@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 /* Simple Responsive Framework. */
 .row {
     width: 100%;
