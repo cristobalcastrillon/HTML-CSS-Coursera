@@ -12,7 +12,7 @@ p {
     width: 100%;
 }
 
-#pgTitle {
+h1 {
     color: teal;
     text-align: center;
 }
