@@ -11,6 +11,10 @@ p {
 .row {
     width: 100%;
 }
+
+#pgTitle {
+    text-align: center;
+}
   
 /********** Large devices only **********/
 @media (min-width: 992px) {
