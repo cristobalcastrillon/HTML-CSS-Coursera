@@ -22,12 +22,41 @@ p {
     text-align: left;
     font-size: 16px;
     color: black;
+    clear: both;
 }
 
 .row {
     width: 100%;
     margin: 0%;
     padding: 0%;
+}
+
+div.label {
+    float: right;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.leftLabelColor {
+    background-color: yellowgreen;
+}
+
+.midLabelColor {
+    background-color: tomato;
+}
+
+.rightLabelColor {
+    background-color: turquoise;
+}
+
+.labelText {
+    text-align: center;
+    font-size: 22px;
+    /*** How to place the text EXACTLY on the center of the div? ***/
+}
+
+#beef {
+    color: white;
 }
 
 /********* Large devices only **********/
@@ -74,6 +103,19 @@ p {
     }
     .col-lg-12 {
         width: 100%;
+    }
+
+    #leftLabel {
+        width: 50%;
+    }
+    
+    #middleLabel {
+        width: 50%;
+        
+    }
+    
+    #rightLabel {
+        width: 50%;
     }
 }
 
@@ -123,6 +165,18 @@ p {
         clear: both;
         width: 99.5%;
     }
+
+    #leftLabel {
+        width: 50%;
+    }
+    
+    #middleLabel {
+        width: 50%;
+    }
+    
+    #rightLabel {
+        width: 25%;
+    }
 }
 
 /********** Small devices only **********/
@@ -169,5 +223,17 @@ p {
     }
     .col-sm-12 {
         width: 99.5%;
+    }
+
+    #leftLabel {
+        width: 25%;
+    }
+    
+    #middleLabel {
+        width: 25%;
+    }
+    
+    #rightLabel {
+        width: 25%;
     }
 }
