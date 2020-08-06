@@ -41,17 +41,14 @@ div.label {
 
 .leftLabelColor {
     background-color: yellowgreen;
-    color: black;
 }
 
 .midLabelColor {
     background-color: tomato;
-    color: white;
 }
 
 .rightLabelColor {
     background-color: turquoise;
-    color: black;
 }
 
 #beef {
@@ -60,6 +57,7 @@ div.label {
 
 .container {
     margin: 0 0.25% 0 0.25%;
+    color: white;
 }
 
 /********* Large devices only **********/
