@@ -1,0 +1,42 @@
+* {
+    font-family: 'Libre Baskerville', serif;
+}
+
+#logo {
+    margin-top: 1%;
+    color: #F2D680;
+}
+
+#logo_text1 {
+    font-family: 'Satisfy', cursive;
+    font-size: 78px;
+    font-style: italic;
+    color: #F2D680;
+}
+
+#logo_text2 {
+    margin: -36px 0 0 355px;
+    font-size: 20px;
+    font-style: normal;
+}
+
+#pgTitle {
+    text-align: center;
+    color: #F2D680;
+}
+
+.label {
+    text-align: center;
+    font-size: 24px;
+    color: #E8C3AC;
+}
+
+body {
+    background-color: #0D0D0D;
+}
+
+.container {
+    background-color: #464646;
+    color: #B89A88;
+    border-radius: 5px;
+}
