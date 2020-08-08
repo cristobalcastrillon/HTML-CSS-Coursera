@@ -1,5 +1,6 @@
 * {
     font-family: 'Libre Baskerville', serif;
+    box-sizing: border-box;
 }
 
 #logo {
@@ -33,7 +34,7 @@ body {
 @media (min-width: 1200px) {
     #logo_text1 {
         font-family: 'Satisfy', cursive;
-        font-size: 500%;
+        font-size: 80px;
         font-style: italic;
         color: #F2D680;
     }
@@ -49,7 +50,7 @@ body {
 @media (min-width: 992px) and (max-width: 1199px) {
     #logo_text1 {
         font-family: 'Satisfy', cursive;
-        font-size: 500%;
+        font-size: 80px;
         font-style: italic;
         color: #F2D680;
     }
@@ -65,7 +66,7 @@ body {
 @media (min-width: 768px) and (max-width: 991px) {
     #logo_text1 {
         font-family: 'Satisfy', cursive;
-        font-size: 500%;
+        font-size: 80px;
         font-style: italic;
         color: #F2D680;
     }
@@ -81,14 +82,14 @@ body {
 @media (max-width: 767px) {
     #logo_text1 {
         font-family: 'Satisfy', cursive;
-        font-size: 50%;
+        font-size: 20px;
         font-style: italic;
         color: #F2D680;
     }
     
     #logo_text2 {
-        margin: -1px 0 0 355px;
-        font-size: 2px;
+        margin: -7.5px 0 0 92.5px;
+        font-size: 5px;
         font-style: normal;
     }
 }
