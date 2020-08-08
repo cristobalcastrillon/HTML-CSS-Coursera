@@ -81,14 +81,14 @@ body {
 @media (max-width: 767px) {
     #logo_text1 {
         font-family: 'Satisfy', cursive;
-        font-size: 10%;
+        font-size: 50%;
         font-style: italic;
         color: #F2D680;
     }
     
     #logo_text2 {
         margin: -1px 0 0 355px;
-        font-size: 0.4%;
+        font-size: 2px;
         font-style: normal;
     }
 }
