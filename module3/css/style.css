@@ -29,6 +29,7 @@ body {
     border-radius: 5px;
 }
 
+/*** I should PLACE the 'LLC' text relative to the 'Food & Food's' one ***/
 
 /*** Large devices ***/
 @media (min-width: 1200px) {
