@@ -7,19 +7,6 @@
     color: #F2D680;
 }
 
-#logo_text1 {
-    font-family: 'Satisfy', cursive;
-    font-size: 78px;
-    font-style: italic;
-    color: #F2D680;
-}
-
-#logo_text2 {
-    margin: -36px 0 0 355px;
-    font-size: 20px;
-    font-style: normal;
-}
-
 #pgTitle {
     text-align: center;
     color: #F2D680;
@@ -39,4 +26,69 @@ body {
     background-color: #464646;
     color: #B89A88;
     border-radius: 5px;
+}
+
+
+/*** Large devices ***/
+@media (min-width: 1200px) {
+    #logo_text1 {
+        font-family: 'Satisfy', cursive;
+        font-size: 500%;
+        font-style: italic;
+        color: #F2D680;
+    }
+    
+    #logo_text2 {
+        margin: -36px 0 0 355px;
+        font-size: 20px;
+        font-style: normal;
+    }
+}
+
+/*** Medium devices ***/
+@media (min-width: 992px) and (max-width: 1199px) {
+    #logo_text1 {
+        font-family: 'Satisfy', cursive;
+        font-size: 500%;
+        font-style: italic;
+        color: #F2D680;
+    }
+    
+    #logo_text2 {
+        margin: -36px 0 0 355px;
+        font-size: 20px;
+        font-style: normal;
+    }
+}
+
+/*** Small devices ***/
+@media (min-width: 768px) and (max-width: 991px) {
+    #logo_text1 {
+        font-family: 'Satisfy', cursive;
+        font-size: 500%;
+        font-style: italic;
+        color: #F2D680;
+    }
+    
+    #logo_text2 {
+        margin: -36px 0 0 355px;
+        font-size: 20px;
+        font-style: normal;
+    }
+}
+
+/*** ExtraSmall devices ***/
+@media (max-width: 767px) {
+    #logo_text1 {
+        font-family: 'Satisfy', cursive;
+        font-size: 500%;
+        font-style: italic;
+        color: #F2D680;
+    }
+    
+    #logo_text2 {
+        margin: -36px 0 0 355px;
+        font-size: 20px;
+        font-style: normal;
+    }
 }
