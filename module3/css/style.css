@@ -81,7 +81,7 @@ body {
 @media (max-width: 767px) {
     #logo_text1 {
         font-family: 'Satisfy', cursive;
-        font-size: 50%;
+        font-size: 25%;
         font-style: italic;
         color: #F2D680;
     }
