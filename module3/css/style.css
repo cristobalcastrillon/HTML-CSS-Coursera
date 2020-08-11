@@ -16,6 +16,7 @@
 
 body {
     background-color: #0D0D0D;
+    padding: 0 1.5% 0 1.5%;
     /* padding-top: 70px; */ /*There should be some top padding for the body so the nav-bar doesn't overlay*/
 }
 
@@ -23,10 +24,11 @@ body {
     background-color: #464646;
     color: #B89A88;
     border-radius: 5px;
+    margin: 1% 0 1% 0;
 }
 
-/*** Large devices ***/
-@media (min-width: 1200px) {
+/*** Medium devices: DESKTOP. ***/
+@media (min-width: 992px) {
     #logo_text1 {
         font-family: 'Satisfy', cursive;
         font-size: 80px;
@@ -42,24 +44,7 @@ body {
     }
 }
 
-/*** Medium devices ***/
-@media (min-width: 992px) and (max-width: 1199px) {
-    #logo_text1 {
-        font-family: 'Satisfy', cursive;
-        font-size: 80px;
-        font-style: italic;
-        color: #F2D680;
-    }
-    
-    #logo_text2 {
-        margin: -36px 0 0 355px;
-        font-size: 20px;
-        font-style: normal;
-        color: #F2D680;
-    }
-}
-
-/*** Small devices ***/
+/*** Small devices: TABLET ***/
 @media (min-width: 768px) and (max-width: 991px) {
     #logo_text1 {
         font-family: 'Satisfy', cursive;
@@ -76,7 +61,7 @@ body {
     }
 }
 
-/*** ExtraSmall devices ***/
+/*** ExtraSmall devices: MOBILE ***/
 @media (max-width: 767px) {
     #logo_text1 {
         font-family: 'Satisfy', cursive;
@@ -90,5 +75,11 @@ body {
         font-size: 7.25px;
         font-style: normal;
         color: #F2D680;
+    }
+
+    body {
+        background-color: #0D0D0D;
+        padding: 0 12.5% 0 12.5%;
+        /* padding-top: 70px; */ /*There should be some top padding for the body so the nav-bar doesn't overlay*/
     }
 }
