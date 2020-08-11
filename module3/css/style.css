@@ -14,12 +14,6 @@
     color: #E8C3AC;
 }
 
-body {
-    background-color: #0D0D0D;
-    padding: 0 1.5% 0 1.5%;
-    /* padding-top: 70px; */ /*There should be some top padding for the body so the nav-bar doesn't overlay*/
-}
-
 .container {
     background-color: #464646;
     color: #B89A88;
@@ -42,6 +36,12 @@ body {
         font-style: normal;
         color: #F2D680;
     }
+
+    body {
+        background-color: #0D0D0D;
+        padding: 0 1.5% 0 1.5%;
+        /* padding-top: 70px; */ /*There should be some top padding for the body so the nav-bar doesn't overlay*/
+    }
 }
 
 /*** Small devices: TABLET ***/
@@ -58,6 +58,12 @@ body {
         font-size: 20px;
         font-style: normal;
         color: #F2D680;
+    }
+
+    body {
+        background-color: #0D0D0D;
+        padding: 0 1.5% 0 1.5%;
+        /* padding-top: 70px; */ /*There should be some top padding for the body so the nav-bar doesn't overlay*/
     }
 }
 
