@@ -13,6 +13,10 @@
     padding: 0;
 }
 
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
 #pgTitle {
     text-align: center;
     color: #F2D680;
