@@ -14,7 +14,7 @@
 </head>
 
 <header>
-    <nav id =  "header-nav" class = "navbar navbar-default navbar-fixed-top">
+    <nav id =  "header-nav" class = "navbar navbar-default navbar-static-top">
         <div class = "container-fluid">
             <div class = "navbar-header">
                 <a class = "navbar-brand pull-left" href="#">
@@ -22,6 +22,12 @@
                     <div id = "logo_text2"> LLC </div>
                 </a>
             </div>
+            
+            <!-- Why is the menu button not visible? -->
+            <button id = "menu_btn" type="button" class="btn btn-default btn-lg" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span id = "menu_icon" class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+            </button>
         </div>
     </nav>
 </header>
