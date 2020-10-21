@@ -30,6 +30,10 @@
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
+#collapsed-menu {
+    background-color: #464646;
+}
+
 /*** Medium devices: DESKTOP. ***/
 @media (min-width: 992px) {
     #logo_text1 {
@@ -51,10 +55,14 @@
         padding: 0 1.5% 0 1.5%;
         /* padding-top: 70px; */ /*There should be some top padding for the body so the nav-bar doesn't overlay*/
     }
+
+    .collapse {
+        visibility: hidden;
+    }
 }
 
 /*** Small devices: TABLET ***/
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 576px) and (max-width: 991px) {
     #logo_text1 {
         font-family: 'Satisfy', cursive;
         font-size: 80px;
@@ -74,10 +82,23 @@
         padding: 0 1.5% 0 1.5%;
         /* padding-top: 70px; */ /*There should be some top padding for the body so the nav-bar doesn't overlay*/
     }
+
+    .collapse {
+        visibility: hidden;
+    }
 }
 
 /*** ExtraSmall devices: MOBILE ***/
-@media (max-width: 767px) {
+@media (max-width: 575px) {
+    header {
+        background-color: #0D0D0D;
+    }
+
+    /* I NEED TO MOVE (JUST) THE NAVBAR BRAND (NOT THE COLLAPSIBLE MENU) WITH THE FOLLOWING AMOUNT OF PADDING */
+    /* #navbar-brand {
+        padding: 0 12.5% 0 12.5%;
+    } */
+
     #logo_text1 {
         font-family: 'Satisfy', cursive;
         font-size: 30px;
@@ -92,9 +113,15 @@
         color: #F2D680;
     }
 
-    body {
+    #margin-control {
         background-color: #0D0D0D;
         padding: 0 12.5% 0 12.5%;
         /* padding-top: 70px; */ /*There should be some top padding for the body so the nav-bar doesn't overlay*/
+    }
+
+    .collapse {
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
     }
 }
