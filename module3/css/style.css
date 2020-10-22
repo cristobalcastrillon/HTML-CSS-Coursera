@@ -26,13 +26,22 @@
     margin: 1% 0 1% 0;
 }
 
-.custom-toggler .navbar-toggler-icon {
+ .navbar-toggler {
+     margin: 0 12.5% 0 0;
+ }
+
+ .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-#collapsed-menu {
+ #collapsed-menu {
     background-color: #464646;
+    text-align: center;
 }
+
+ .nav-item {
+    color: #E8C3AC;
+ }
 
 /*** Medium devices: DESKTOP. ***/
 @media (min-width: 992px) {
@@ -94,19 +103,16 @@
         background-color: #0D0D0D;
     }
 
-    /* I NEED TO MOVE (JUST) THE NAVBAR BRAND (NOT THE COLLAPSIBLE MENU) WITH THE FOLLOWING AMOUNT OF PADDING */
-    /* #navbar-brand {
-        padding: 0 12.5% 0 12.5%;
-    } */
-
     #logo_text1 {
         font-family: 'Satisfy', cursive;
+        padding: 0 37.5% 0 37.5%;
         font-size: 30px;
         font-style: italic;
         color: #F2D680;
     }
     
     #logo_text2 {
+        padding: 0 37.5% 0 37.5%;
         margin: -12.5px 0 0 137.5px;
         font-size: 7.25px;
         font-style: normal;
@@ -121,7 +127,5 @@
 
     .collapse {
         width: 100%;
-        margin: 0%;
-        padding: 0%;
     }
 }
