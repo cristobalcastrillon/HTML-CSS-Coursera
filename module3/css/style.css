@@ -105,14 +105,14 @@
 
     #logo_text1 {
         font-family: 'Satisfy', cursive;
-        padding: 0 37.5% 0 37.5%;
+        padding: 0 12.5% 0 12.5%;
         font-size: 30px;
         font-style: italic;
         color: #F2D680;
     }
     
     #logo_text2 {
-        padding: 0 37.5% 0 37.5%;
+        padding: 0 12.5% 0 12.5%;
         margin: -12.5px 0 0 137.5px;
         font-size: 7.25px;
         font-style: normal;
